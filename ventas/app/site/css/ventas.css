@@ -1,0 +1,163 @@
+/** Esta es la hora de estilo **/
+input{
+    border: 1px solid #C2C2C2;
+    color: #444444;
+    font-family: Arial;
+    font-size: 12px !important;
+    background-color: #F0F0F0;
+    outline: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 27px;
+}
+input:focus{
+    background-color: #F8F8F8;
+    -webkit-box-shadow: 1px 3px 7px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow:    1px 3px 7px rgba(50, 50, 50, 0.3);
+    box-shadow:         1px 3px 7px rgba(50, 50, 50, 0.3);
+}
+
+
+#menu_header_ventas{
+	margin-top: -5px;
+	margin-left: -40px;
+}
+#menu_header_ventas li{
+	display: inline-block;
+	margin-right: -3px;
+}
+#menu_header_ventas li a{
+	/*color: #FFF;*/
+	font-size: 12px;
+}
+#paginacion{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+#titulo_paginacion{
+	float: left;
+}
+.pagina{
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #8D8D8D;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.pagin a{
+	color: #FFF !important;
+}
+#paginacion_tabla{
+
+}
+#buscar_cliente{
+	right: 0px;
+}
+#txt_campo_palabra_buscar,#txt_campo_palabra_buscar_accesorio{
+	width: 350px;
+	height: 30px;
+}
+#div_detalle_producto_consulta{
+	border: 1px solid #8D8D8D;
+	margin-bottom: 5px;
+	padding: 5px;
+	height: 130px;
+	font-family:Tahoma;
+}
+#div_detalle_producto_consulta:hover{
+	background-color: #e5e5e5;
+}
+#div_detalle_producto_consulta h4{
+	margin-top:0px;
+	margin-bottom: 2px;
+}
+#div_detalle_producto_consulta #div_img_producto_consulta{
+	float: left;
+	width: 150px;
+	height: 100px;
+	border: 1px solid #8D8D8D;
+	margin-right: 5px;
+}
+
+/***************************************** Licitacion publica **************************/
+
+#div_detalle_producto_consulta_publ{
+	border: 1px solid #8D8D8D;
+	margin-bottom: 5px;
+	padding: 5px;
+	height: 130px;
+	font-family:Tahoma;
+}
+#div_detalle_producto_consulta_publ:hover{
+	background-color: #e5e5e5;
+}
+#div_detalle_producto_consulta_publ h4{
+	margin-top:0px;
+	margin-bottom: 2px;
+}
+#div_detalle_producto_consulta_publ #div_img_producto_consulta_publ{
+	float: left;
+	width: 150px;
+	height: 100px;
+	border: 1px solid #8D8D8D;
+	margin-right: 5px;
+}
+
+/************************************** FIN PUBLICA *******************************************/
+
+.table_usuario{
+	margin-left: -10px !important;
+}
+
+#txt_campo_palabra_buscar02,#txt_campo_palabra_buscar_accesorio02{
+	width: 350px;
+	height: 30px;
+}
+#div_detalle_producto_consulta02{
+	border: 1px solid #8D8D8D;
+	margin-bottom: 5px;
+	padding: 5px;
+	height: 130px;
+	font-family:Tahoma;
+}
+#div_detalle_producto_consulta02:hover{
+	background-color: #e5e5e5;
+}
+#div_detalle_producto_consulta02 h4{
+	margin-top:0px;
+	margin-bottom: 2px;
+}
+#div_detalle_producto_consulta02 #div_img_producto_consulta02{
+	float: left;
+	width: 150px;
+	height: 100px;
+	border: 1px solid #8D8D8D;
+	margin-right: 5px;
+}
+.row_selected{
+    background-color: #fcefa1 !important;
+
+}
+
+.ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+.ui-autocomplete li{
+    border-bottom: 1px dashed #CCCCCC !important;
+    border-top: 1px dashed #CCCCCC !important;
+}
+.odd{
+    height: 40px;
+}
+.odd:hover{
+    background-color: burlywood;
+}
+.even{
+    height: 40px;
+}

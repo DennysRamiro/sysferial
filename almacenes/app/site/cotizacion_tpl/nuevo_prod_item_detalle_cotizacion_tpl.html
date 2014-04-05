@@ -1,0 +1,83 @@
+<div id="tpl_vent_form_nuevo_item_cabecera" style="display:none;" title="NUEVO ITEM">
+<h3><img src="../img/stuff_32x32.png" align="absmiddle"> FORMULARIO NUEVO ITEM</h3>
+<hr style="border:1px dashed;">
+    <h4><img src="../img/add_prod_32x32.png" align="absmiddle"> CANTIDAD STOCK: <span id="cantidad_stock_de_items"></span> | CANTIDAD RESERVADA: <span id="cantidad_reservada_de_items"></span></h4>
+    <input type="hidden" name="stock_de_item_cot_priv" id="stock_de_item_cot_priv">
+    <input type="hidden" name="reservado_de_item_cot_priv" id="reservado_de_item_cot_priv">
+  <hr style="border:1px dashed;">
+	<form id="form_vent_nuevo_item_cabecera_formulario">
+    <!--input type="text" id="id_cab_prof_venta_codigo_unico" name="id_cab_prof_venta_codigo_unico"-->
+    <input type="hidden" id="codigo_uniko" name="codigo_uniko">
+		<table>
+          <tr>
+            <td><strong>PROVEEDOR:</strong></td>
+            <td><div id="div_vent_proveedor_vent"></div><input type="hidden" name="id_codigo_proveedor" id="id_codigo_proveedor"></td>
+            <td><strong>ITEM:</strong></td>
+            <td><div id="div_vent_codigo_unico_producto_item"></div><input name="txt_vent_codigo_unico" id="txt_vent_codigo_unico" type="hidden" class="txt_campo" /><input type="hidden" name="id_codigo_cabecera_prof_venta_prod" value="id_codigo_cabecera_prof_venta_prod"></td>
+           
+            <td><strong>ESTADO PRODUCTO:</strong></td>
+            <td><div id="div_vent_estado_producto_dispo"></div></td>
+           
+          </tr>
+          <tr>
+            <td><strong>MARCA:</strong></td>
+            <td><div id="div_marca_prod_form_item"></div><input type="hidden" name="id_marca_prod_item" id="id_marca_prod_item"> </td>
+            <td><strong>ORIGEN:</strong></td>
+            <td><div id="div_sucursal_origen_form_item"></div><input type="hidden" name="id_sucursal_origen_item" id="id_sucursal_origen_item"></div></td>
+            <td><strong>TIPO PRODUCTO:</strong></td>
+            <td><div id="div_vent_estado_tipo_producto"></div><input type="hidden" name="id_codigo_tipo_prod" id="id_codigo_tipo_prod" ></td>
+
+
+          </tr>
+          <tr>
+            
+            <td><strong>P. VENTA:</strong></td>
+            <td>
+                <input name="precio_venta_producto" id="precio_venta_producto" type="text" class="txt_campo" readonly />
+                <input name="txt_vent_precio_venta_form_item" id="txt_vent_precio_venta_form_item" type="text" class="txt_campo"/>
+                <div id="div_error_vent_precio_venta"></div> 
+                <input type="hidden" name="id_codigo_tipo_moneda" id="id_codigo_tipo_moneda" ></td>
+                
+            <td><strong>CANTIDAD:</strong></td>
+            <td><input name="txt_vent_item_cant_prod" id="txt_vent_item_cant_prod" type="text" class="txt_campo" value="0" />
+                 <div id="div_error_item_cant_prod"></div>
+                 <input name="txt_vent_item_cant_prod_hidden" id="txt_vent_item_cant_prod_hidden" type="hidden" class="txt_campo"/>
+                 </td>
+            <td><strong>DESCUENTOS:</strong></td>
+            <td><select id="select_vent_servicio_producto_item" name="select_vent_servicio_producto_item"></select><input type="text" name="input_vent_porcentaje_por_servicio" id="input_vent_porcentaje_por_servicio" class="txt_campo"></td>
+          </tr>
+          <tr>
+                        <td><strong>TIEMPO ESPERA:</strong></td>
+            <td><input name="txt_vent_tiempo_espera" id="txt_vent_tiempo_espera" type="text" class="txt_campo" placeholder="Dias"/><div id="div_error_vent_tiempo_espera"></div></td>
+             
+           
+            
+          </tr>
+          <tr>
+            <td><strong>OBSERVACIONES:</strong></td>
+            <td><textarea name="txt_area_vent_observaciones" id="txt_area_vent_observaciones"></textarea></td>
+            
+          </tr>
+        </table>
+        <!--h3>LISTA DE ACCESORIOS</h3>
+        <hr style="border:1px dashed;">
+         <input type="button" value="NUEVO ACCESORIO" class="btn_form" onclick="new Home().nuevoAccesorioProducto();">
+        <div id="lista_accesorios_items">
+          <table class="table_usuario">
+            <tr>
+              <th>TIPO</th>
+              <th>PRODUCTO</th>
+              <th>CANTIDAD</th>
+              <th>PRECIO VENTA</th>
+              <th>MODIFICAR</th>
+              <th>ELIMINAR</th>
+            </tr>
+          </table>
+        </div-->
+        <br>
+        <center>
+          <input type="submit" value="PROCESAR NUEVO ITEM" class="btn_form"> 
+          <input type="button" value="CANCELAR" class="btn_form" onclick="new Home().closeDialogoNuevoItemProducto();">
+        </center>
+	</form>
+</div>

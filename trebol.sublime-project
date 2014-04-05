@@ -1,0 +1,37 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\Trebol"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\contador"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\jgrid"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\Dropbox\\webargo"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\web"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\RestoMovil"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\Dropbox\\web"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\xampp\\htdocs\\Dropbox\\interMovil"
+		}
+	]
+}

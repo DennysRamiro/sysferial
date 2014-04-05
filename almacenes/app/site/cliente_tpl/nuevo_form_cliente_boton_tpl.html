@@ -1,0 +1,58 @@
+<div id="tpl_vent_form_nuevo_cliente_bot" style="display:none;" title="NUEVO CLIENTE">
+	<h3><img src="../img/user office_32x32.png" align="absmiddle"> REGISTRAR NUEVO CLIENTE</h3>
+	<hr style="border:1px dashed;">
+	<form id="form_vent_nuevo_cliente_bot">
+		<table>
+          <tr>
+            <td><strong>NOMBRE(S):</strong></td>
+            <td><input name="txt_vent_nombre_cliente_bot" id="txt_vent_nombre_cliente_bot" type="text" class="txt_campo" /><div id="div_error_vent_error_nombre_bot"></div></td>
+            <td><strong>EMPRESA:</strong></td>
+            <td><input name="txt_vent_empresa_cliente_bot" id="txt_vent_empresa_cliente_bot" type="text" class="txt_campo" /></td>
+          </tr>
+          <tr>
+            <td><strong>APELLIDO PATERNO:</strong></td>
+            <td><input name="txt_vent_apellido_pat_cliente_bot" id="txt_vent_apellido_pat_cliente_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_apellido_pat_bot"></div></td>
+            <td><strong>CARGO:</strong></td>
+            <td><input name="txt_vent_cargo_cliente_bot" id="txt_vent_cargo_cliente_bot" type="text" class="txt_campo"/></td>
+          </tr>
+          <tr>
+            <td><strong>APELLIDO MATERNO:</strong></td>
+            <td><input name="txt_vent_apellido_mat_cliente_bot" id="txt_vent_apellido_mat_cliente_bot" type="text" class="txt_campo"/></td>
+            <td><strong>DEPARTAMENTO:</strong></td>
+            <td><input name="txt_vent_departamento_cliente_bot" id="txt_vent_departamento_cliente_bot" type="text" class="txt_campo"/></td>
+          </tr>
+          <tr>
+            <td><strong>FECHA NACIMIENTO:</strong></td>
+            <td><input name="txt_vent_cliente_fecha_nac_bot" id="txt_vent_cliente_fecha_nac_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_cliente_fecha_nac_bot"></div></td>
+            <td><strong>TELEFONO:</strong></td>
+            <td><input name="txt_vent_telefono_cliente_bot" id="txt_vent_telefono_cliente_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_telefono_cliente_bot"></div></td>
+          </tr>
+          <tr>
+            <td><strong>CORREO:</strong></td>
+            <td><input name="txt_vent_cliente_correo_bot" id="txt_vent_cliente_correo_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_cliente_correo_bot"></div></td>
+            <td><strong>NIT:</strong></td>
+            <td><input name="txt_vent_nit_cliente_bot" id="txt_vent_nit_cliente_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_nit_cliente_bot"></div></td>
+          </tr>
+          <tr>
+            <td><strong>CELULAR:</strong></td>
+            <td><input name="txt_vent_celular_cliente_bot" id="txt_vent_celular_cliente_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_celular_cliente_bot"></div></td>
+            <td><strong>RAZON SOCIAL:</strong></td>
+            <td><input name="txt_vent_razon_social_cliente_bot" type="text" id="txt_vent_razon_social_cliente_bot" class="txt_campo"/><div id="div_error_vent_error_razon_social_cliente_bot"></div></td>
+          </tr>
+          <tr>
+            <td><strong>DIRECCION:</strong></td>
+            <td><textarea name="txt_area_vent_dirrecion_cliente_bot" id="txt_area_vent_dirrecion_cliente_bot"></textarea></td>
+            <td><strong>NUMERO INTERNO:</strong></td>
+            <td><input name="txt_vent_numero_interno_bot" id="txt_vent_numero_interno_bot" type="text" class="txt_campo"/><div id="div_error_vent_error_numero_interno_bot"></td>
+          </tr>
+          <tr>
+            <td><strong>PERSONA CONTACTAR:</strong></td>
+            <td><input name="txt_vent_cliente_persona_contacto_bot" type="text" id="txt_vent_cliente_persona_contacto_bot" class="txt_campo"/><div id="div_error_vent_error_persona_contacto_bot"></div></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <br>
+        <center><input type="submit" value="REGISTRAR CLIENTE" id="bt_submit_vent_nuevo_cliente" class="btn_form"> <input type="button" value="Cancelar" class="btn_form" onclick="new Cliente().closeDialogoNuevoClienteBot();"></center>
+	</form>
+</div>

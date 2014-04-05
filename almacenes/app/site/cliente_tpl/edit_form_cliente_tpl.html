@@ -1,0 +1,59 @@
+<div id="tpl_vent_form_edit_cliente" style="display:none;" title="EDITAR CLIENTE">
+	<h3><img src="../img/user office_32x32.png" align="absmiddle"> EDITAR DATOS CLIENTE </h3>
+	<hr style="border:1px dashed;">
+	<form id="form_vent_edit_cliente">
+		<table>
+          <tr>
+            <td><strong>NOMBRE(S):</strong></td>
+            <td><input name="txt_vent_nombre_cliente_edit" id="txt_vent_nombre_cliente_edit" type="text" class="txt_campo" /><div id="div_error_vent_error_nombre_edit"></div></td>
+            <td><strong>EMPRESA:</strong></td>
+            <td><input name="txt_vent_empresa_cliente_edit" id="txt_vent_empresa_cliente_edit" type="text" class="txt_campo" /></td>
+          </tr>
+          <tr>
+            <td><strong>APELLIDO PATERNO:</strong></td>
+            <td><input name="txt_vent_apellido_pat_cliente_edit" id="txt_vent_apellido_pat_cliente_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_apellido_pat_edit"></div></td>
+            <td><strong>CARGO:</strong></td>
+            <td><input name="txt_vent_cargo_cliente_edit" id="txt_vent_cargo_cliente_edit" type="text" class="txt_campo"/></td>
+          </tr>
+          <tr>
+            <td><strong>APELLIDO MATERNO:</strong></td>
+            <td><input name="txt_vent_apellido_mat_cliente_edit" id="txt_vent_apellido_mat_cliente_edit" type="text" class="txt_campo"/></td>
+            <td><strong>DEPARTAMENTO:</strong></td>
+            <td><input name="txt_vent_departamento_cliente_edit" id="txt_vent_departamento_cliente_edit" type="text" class="txt_campo"/></td>
+          </tr>
+          <tr>
+            <td><strong>FECHA NACIMIENTO:</strong></td>
+            <td><input name="txt_vent_cliente_fecha_nac_edit" id="txt_vent_cliente_fecha_nac_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_cliente_fecha_nac_edit"></div></td>
+            <td><strong>TELEFONO:</strong></td>
+            <td><input name="txt_vent_telefono_cliente_edit" id="txt_vent_telefono_cliente_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_telefono_cliente_edit"></div></td>
+          </tr>
+          <tr>
+            <td><strong>CORREO:</strong></td>
+            <td><input name="txt_vent_cliente_correo_edit" id="txt_vent_cliente_correo_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_cliente_correo_edit"></div></td>
+            <td><strong>NIT:</strong></td>
+            <td><input name="txt_vent_nit_cliente_edit" id="txt_vent_nit_cliente_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_nit_cliente_edit"></div></td>
+          </tr>
+          <tr>
+            <td><strong>CELULAR:</strong></td>
+            <td><input name="txt_vent_celular_cliente_edit" id="txt_vent_celular_cliente_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_celular_cliente_edit"></div></td>
+            <td><strong>RAZON SOCIAL:</strong></td>
+            <td><input name="txt_vent_razon_social_cliente_edit" type="text" id="txt_vent_razon_social_cliente_edit" class="txt_campo"/><div id="div_error_vent_error_razon_social_cliente_edit"></div></td>
+          </tr>
+          <tr>
+            <td><strong>DIRECCION:</strong></td>
+            <td><textarea name="txt_area_vent_dirrecion_cliente_edit" id="txt_area_vent_dirrecion_cliente_edit"></textarea></td>
+            <td><strong>NUMERO INTERNO:</strong></td>
+            <td><input name="txt_vent_numero_interno_edit" id="txt_vent_numero_interno_edit" type="text" class="txt_campo"/><div id="div_error_vent_error_numero_interno_edit"></td>
+          </tr>
+          <tr>
+            <td><strong>PERSONA CONTACTAR:</strong></td>
+            <td><input name="txt_vent_cliente_persona_contacto_edit" type="text" id="txt_vent_cliente_persona_contacto_edit" class="txt_campo"/><div id="div_error_vent_error_persona_contacto_edit"></div></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <br>
+        <input type="hidden" id="id_unico_cliente" name="id_unico_cliente"><input type="hidden" id="codigo_cliente" name="codigo_cliente" >
+        <center><input type="submit" value="Guardar Datos cliente" id="bt_submit_vent_nuevo_cliente" class="btn_form"> <input type="button" value="Cancelar" class="btn_form" onclick="new Cliente().closeDialogEditCliente();"></center>
+	</form>
+</div>

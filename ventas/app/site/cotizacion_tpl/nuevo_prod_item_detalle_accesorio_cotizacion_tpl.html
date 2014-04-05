@@ -1,0 +1,54 @@
+<div id="tpl_vent_form_nuevo_item_cabecera_accesorio" style="display:none;" title="NUEVO ACCESORIO">
+	<h3><img src="../img/stuff_32x32.png" align="absmiddle"> NUEVO ACCESORIO - <span id="div_vent_codigo_unico_producto_item_accesorio"></span></h3>
+  <hr style="border:1px dashed;">
+  <strong><h4>CANTIDAD EN STOCK : <span id='cantidad_stock_accesorio'> </span> | CANTIDAD PENDIENT : <span id='cantidad_pendiente_accesorio'></span></h4></strong>
+  <input type="hidden" id="stock_accesorio" name="stock_accesorio">
+  <input type="hidden" id="reservados_accesorio" name="reservados_accesorio">
+	<hr style="border:1px dashed;">
+	<form id="form_vent_nuevo_item_cabecera_formulario_accesorio">
+    <input type="hidden" id="id_cab_prof_venta_codigo_unico_accesorio" name="id_cab_prof_venta_codigo_unico_accesorio">
+		<table>
+          <tr>
+            <td><strong>PROVEEDOR:</strong></td>
+            <td>
+            <input type="hidden" name="cantidad_total_stock_accesorios" id="cantidad_total_stock_accesorios" class="txt_campo" readonly/>
+            <div id="div_vent_proveedor_vent_accesorio"></div><input type="hidden" name="id_codigo_proveedor_accesorio" id="id_codigo_proveedor_accesorio"><input type="hidden" name="id_marca_prod_item_accesorio_nombre_prov" id="id_marca_prod_item_accesorio_nombre_prov"></td>
+            <td><strong>ITEM:</strong></td>
+            <td><div id="div_nombre_item_accesorio_det"></div><input type="hidden" id="h_vent_nombre_unico_det_accesorio" name="h_vent_nombre_unico_det_accesorio">
+            <input type="hidden" name="txt_vent_codigo_unico_det_accesorio" id="txt_vent_codigo_unico_det_accesorio" class="txt_campo" />
+            <input type="hidden" name="id_codigo_cabecera_prof_venta_prod_accesorio" id="id_codigo_cabecera_prof_venta_prod_accesorio">
+            <input type="hidden" name="id_codigo_cotizacion_prof_venta_prod_accesorio" id="id_codigo_cotizacion_prof_venta_prod_accesorio" >
+            <input type='hidden' name='codigo_cotizacion_prof_venta_prod_accesorio_id_item' id='codigo_cotizacion_prof_venta_prod_accesorio_id_item'>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>ESTADO PRODUCTO:</strong></td>
+            <td><div id="div_vent_estado_producto_dispo_accesorio"></div></td>
+            <td><strong>MARCA:</strong></td>
+            <td><div id="div_marca_prod_form_item_accesorio"></div><input type="hidden" name="id_marca_prod_item_accesorio" id="id_marca_prod_item_accesorio"> </td>
+                       
+          </tr>
+          <!--tr>
+            <td><strong>P. VENTA MIN:</strong></td>
+            <td><input type="text" readonly="" id="div_vent_precio_vent_min_accesorio" name="div_vent_precio_vent_min_accesorio" class="txt_campo"></td>
+            <td><strong>P. VENTA MAX:</strong></td>
+            <td><input type="text" readonly="" id="div_vent_precio_vent_max_accesorio" name="div_vent_precio_vent_max_accesorio" class="txt_campo"></td>
+          </tr-->
+          <tr>
+            <td><strong>P. VENTA:</strong></td>
+            <td>
+            <input name="txt_vent_precio_venta_accesorio" id="txt_vent_precio_venta_accesorio" type="text" class="txt_campo" readonly />
+            <input name="txt_vent_precio_venta_form_item_accesorio" id="txt_vent_precio_venta_form_item_accesorio" type="text" class="txt_campo"/>
+            <div id="div_error_vent_precio_venta_accesorio"></div> 
+            <input type="hidden" name="id_codigo_tipo_moneda_accesorio" id="id_codigo_tipo_moneda_accesorio" ></td>
+            <input type="hidden" name="precvio_venta_accesorio" id="precvio_venta_accesorio" >
+            <td><strong>CANTIDAD:</strong></td>
+            <td><input name="txt_vent_item_cant_prod_accesorio" id="txt_vent_item_cant_prod_accesorio" type="text" class="txt_campo"/><div id="div_error_item_cant_prod_accesorio"></div></td>
+          </tr>
+        </table>
+        <center>
+          <input type="submit" value="PROCESAR NUEVO ACCESORIO" class="btn_form"> 
+          <input type="button" value="CANCELAR" class="btn_form" onclick="new Home().closeDialogoAccesorio();">
+        </center>
+	</form>
+</div>

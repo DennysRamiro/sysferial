@@ -1,0 +1,89 @@
+<div id="tpl_vent_form_nuevo_item_cabecera_publ" style="display:none;" title="NUEVO ITEM">
+	<h3><img src="../img/stuff_32x32.png" align="absmiddle"> FORMULARIO NUEVO ITEM</h3> 
+    
+    <hr style="border:1px dashed;">
+    <h4><img src="../img/add_prod_32x32.png" align="absmiddle"> CANTIDAD STOCK: <span id="cantidad_total"></span> | CANTIDAD RESERVADA: <span id="cantidad_reservada_de_items_publ"></span></h4>
+    <input type="hidden" name="stock_de_item_cot_publ" id="stock_de_item_cot_publ">
+    <input type="hidden" name="reservado_de_item_cot_publ" id="reservado_de_item_cot_publ">
+    <hr style="border:1px dashed;">
+
+
+  <!--hr style="border:1px dashed;">
+  <h3><img src="../img/search_prod_32x32.png" align="absmiddle"> CANTIDAD STOCK: <span id="cantidad_total"></span></h3>
+	<hr style="border:1px dashed;"-->
+
+	<form id="form_vent_nuevo_item_cabecera_formulario_publ">
+    <!--input type="text" id="id_cab_prof_venta_codigo_unico" name="id_cab_prof_venta_codigo_unico_publ"-->
+    <input type="hidden" id="codigo_unico_cot_publ" name="codigo_unico_cot_publ">
+		<table>
+          <tr>
+            <td><strong>PROVEEDOR:</strong></td>
+            <td><div id="div_vent_proveedor_vent_publ"></div><input type="hidden" name="id_codigo_proveedor_publ" id="id_codigo_proveedor_publ"></td>
+            <td><strong>ITEM:</strong></td>
+            <td><div id="div_vent_codigo_unico_producto_item_publ"></div>
+            <input name="txt_vent_codigo_unico_publ" id="txt_vent_codigo_unico_publ" type="hidden" class="txt_campo" />
+            <input type="hidden" name="id_codigo_cabecera_prof_venta_prod_publ" id="id_codigo_cabecera_prof_venta_prod_publ">
+            <input type="hidden" name="txt_cod_pord_id_unico" id="txt_cod_pord_id_unico"></td>
+            <td><strong>ESTADO PRODUCTO:</strong></td>
+            <td><div id="div_vent_estado_producto_dispo_publ"></div></td>
+           
+          </tr>
+          <tr>
+            <td><strong>MARCA:</strong></td>
+            <td><div id="div_marca_prod_form_item_publ"></div><input type="hidden" name="id_marca_prod_item_publ" id="id_marca_prod_item_publ"> </td>
+            <td><strong>ORIGEN:</strong></td>
+            <td><div id="div_sucursal_origen_form_item_publ"></div><input type="hidden" name="id_sucursal_origen_item_publ" id="id_sucursal_origen_item_publ"></div></td>
+            <td><strong>TIPO PRODUCTO:</strong></td>
+            <td><div id="div_vent_estado_tipo_producto_publ"></div><input type="hidden" name="id_codigo_tipo_prod_publ" id="id_codigo_tipo_prod_publ" ></td>
+          </tr>
+          <tr>
+            <td><strong>P. VENTA:</strong></td>
+            <td>
+            <input name="precio_venta_producto_publ" id="precio_venta_producto_publ" type="text" class="txt_campo" readonly />
+            <input name="txt_vent_precio_venta_form_item_publ" id="txt_vent_precio_venta_form_item_publ" type="text" class="txt_campo"/><div id="div_error_vent_precio_venta_publ"></div> 
+            <input type="hidden" name="id_codigo_tipo_moneda_publ" id="id_codigo_tipo_moneda_publ" >
+            </td>
+            <td><strong>CANTIDAD:</strong></td>
+            <td><input name="txt_vent_item_cant_prod_publ" id="txt_vent_item_cant_prod_publ" type="text" class="txt_campo" value="1" />
+                 <div id="div_error_item_cant_prod"></div>
+                 <input name="txt_vent_item_cant_prod_hidden_publ" id="txt_vent_item_cant_prod_hidden_publ" type="hidden" class="txt_campo"/>
+                 </td>
+            <td><strong>DESCUENTOS:</strong></td>
+            <td><select id="select_vent_servicio_producto_item_publ" name="select_vent_servicio_producto_item_publ"></select>
+                <input type="text" name="input_vent_porcentaje_por_servicio_publ" id="input_vent_porcentaje_por_servicio_publ" class="txt_campo"></td>
+
+          </tr>
+          <tr>
+             
+             <td><strong>TIEMPO ESPERA:</strong></td>
+            <td><input name="txt_vent_tiempo_espera_publ" id="txt_vent_tiempo_espera_publ" type="text" class="txt_campo" placeholder="Dias"/><div id="div_error_vent_tiempo_espera_publ"></div></td>
+            
+          </tr>
+          <tr>
+            <td><strong>OBSERVACIONES:</strong></td>
+            <td><textarea name="txt_area_vent_observacione_publs_publ" id="txt_area_vent_observaciones_publ"></textarea></td>
+            
+          </tr>
+        </table>
+        <!--h3>LISTA DE ACCESORIOS</h3>
+        <hr style="border:1px dashed;">
+         <input type="button" value="NUEVO ACCESORIO" class="btn_form" onclick="new Home().nuevoAccesorioProducto();">
+        <div id="lista_accesorios_items">
+          <table class="table_usuario">
+            <tr>
+              <th>TIPO</th>
+              <th>PRODUCTO</th>
+              <th>CANTIDAD</th>
+              <th>PRECIO VENTA</th>
+              <th>MODIFICAR</th>
+              <th>ELIMINAR</th>
+            </tr>
+          </table>
+        </div-->
+        <br>
+        <center>
+          <input type="submit" value="PROCESAR NUEVO ITEM" class="btn_form"> 
+          <input type="button" value="CERRAR" class="btn_form" onclick="new Home().closeDialogoNuevoItemProductoPubl();">
+        </center>
+	</form>
+</div>

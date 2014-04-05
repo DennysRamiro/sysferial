@@ -1,0 +1,17 @@
+<hr>
+<div id="id-dialog-ingreso">
+
+</div>
+{tpl_cliente}
+<div id="id-cabecera-ingreso-directas">
+    <div id="msg-error-cabecera-ingreso"></div>
+    <table>
+      <tr><td>FECHA</td><td><input type="text" name="fecha-ingreso" id="fecha-ingreso" class="txt_campo" readonly></td>
+          <td></td><td><input type="hidden" name="id-cabecera-ingreso" id="id-cabecera-ingreso">
+              <button id="id-agregar-nuevo-proveedor-ingreso" class="btn_form"> NUEVO PROVEEDOR</button></td></tr>
+      <tr><td>NOMBRE</td><td><input type="text" name="nombre-ingreso" id="nombre-ingreso" class="txt_campo required"></td>
+          <td>NIT/CI</td><td><input type="text" name="NIT-ingreso" id="NIT-ingreso" class="txt_campo required">
+              <input type="hidden" name="id-proveedor-ingreso" id="id-proveedor-ingreso"></td></tr>
+    </table>
+    <div class="add_delete_toolbar" />
+</div>

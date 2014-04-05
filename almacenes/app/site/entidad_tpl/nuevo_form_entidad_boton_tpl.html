@@ -1,0 +1,45 @@
+<div id="tpl_entidad_form_nueva_entidad_bot" style="display:none;" title="NUEVA ENTIDAD">
+	<h3><img src="../img/home_32x32.png" align="absmiddle"> REGISTRAR NUEVA ENTIDAD</h3>
+	<hr style="border:1px dashed;">
+	<form id="form_entidad_nuevo">
+		<table>
+          <tr>
+            <td><strong>EMPRESA:</strong></td>
+            <td><input name="txt_entidad_empresa" id="txt_entidad_empresa" type="text" class="txt_campo" /><div id="div_error_entidad_empresa"></div></td>
+            
+             <td><strong>FECHA FUNDACION:</strong></td>
+            <td><input name="txt_entidad_fecha" id="txt_entidad_fecha" type="text" class="txt_campo"/><div id="div_error_entidad_fecha"></div></td>
+          </tr>
+          <tr>
+            <td><strong>NOMBRE REPRESENTANTE:</strong></td>
+            <td><input name="txt_entidad_nombre" id="txt_entidad_nombre" type="text" class="txt_campo" /><div id="div_error_entidad_nombre"></div></td>
+           <td><strong>NIT:</strong></td>
+            <td><input name="txt_entidad_nit" id="txt_entidad_nit" type="text" class="txt_campo"/><div id="div_error_entidad_error_nit"></div></td>
+          </tr>
+         
+         
+          <tr>
+             <td><strong>DIRECCION:</strong></td>
+            <td><textarea name="txt_entidad_dirrecion" id="txt_entidad_dirrecion"></textarea><div id="div_error_entidad_direccion"></div></td>
+            <td><strong>TELEFONO:</strong></td>
+            <td><input name="txt_entidad_telefono" id="txt_entidad_telefono" type="text" class="txt_campo"/><div id="div_error_entidad_telefono"></div></td>
+          </tr>
+         
+          <tr>
+            <td><strong>CELULAR:</strong></td>
+            <td><input name="txt_entidad_celular" id="txt_entidad_celular" type="text" class="txt_campo"/><div id="div_error_entidad_celular"></div></td>
+            <td><strong>CORREO:</strong></td>
+            <td><input name="txt_entidad_correo" id="txt_entidad_correo" type="text" class="txt_campo"/><div id="div_error_entidad_correo"></div></td>
+          </tr>
+         
+          <!--tr>
+            <td><strong>PERSONA CONTACTO:</strong></td>
+            <td><input name="txt_entidad_persona_contacto" type="text" id="txt_entidad_persona_contacto" class="txt_campo"/><div id="div_error_entidad_persona_contacto"></div></td>
+            <td></td>
+            <td></td>
+          </tr-->
+        </table>
+        <br>
+        <center><input type="submit" value="REGISTRAR ENTIDAD" id="bt_submit_vent_nuevo_entidad" class="btn_form"> <input type="button" value="Cancelar" class="btn_form" onclick="new Entidad().closeDialogoNuevaEntidad();"></center>
+	</form>
+</div>

@@ -1,0 +1,56 @@
+<div id="tpl_vent_form_nuevo_venta_priv" style="display:none;" title="NUEVA VENTA">
+  <h3><img src="../img/cotizacion_publ_32x32.png" align="absmiddle"> NUEVA VENTA PRIVADA</h3>
+  <hr style="border:1px dashed;">
+  <form id="form_vent_nueva_priv">
+   <table >
+		<!--tr>
+	    	 <td><strong>ENTIDAD:</strong></td>
+	            <td><input name="txt_vent_entidad_empresa" id="txt_vent_entidad_empresa" type="text" class="txt_campo" />
+	            <input name="txt_vent_entidad_codigo_unico" id="txt_vent_entidad_codigo_unico" type="hidden" class="txt_campo" />
+	            <input name="txt_vent_entidad_empresa_codigo_cliente" id="txt_vent_entidad_empresa_codigo_cliente" type="hidden" class="txt_campo" />
+	            <div id="div_error_txt_vent_entidad_empresa"></div></td>
+		</tr-->
+		<tr>
+	    	 <td><strong>ENTIDAD O CLIENTE:</strong></td>
+	            <td><input name="txt_vent_cliente_proforma" id="txt_vent_cliente_proforma" type="text" class="txt_campo" />
+	            	<input type="hidden" value="" name="cod_unico_cliente" id="cod_unico_cliente" />
+	            	<div id="div_error_txt_vent_cliente_proforma"></div></td>
+	            <td><a class="btn_ventas" onclick="new Home().nuevoClienteBoton()"> <img src="../img/user office add_32x32.png" align="absmiddle">NUEVO CLIENTE</a></td>
+	            <!--td>{cod_cliente}<div " id="div_error_txt_vent_cliente_proforma"></div></td-->
+		</tr>
+
+		<tr>
+	    	 <td><strong>CODIGO CLIENTE:</strong></td>
+	            <td><input name="txt_vent_cod_cliente_proforma" id="txt_vent_cod_cliente_proforma" type="text" class="txt_campo"  readonly /><div id="div_error_txt_vent_cod_cliente_proforma"></div></td>
+	            <!--td>{cod_cliente}<div id="div_error_txt_vent_cliente_proforma"></div></td-->
+	            <td><a class="btn_ventas" onclick="new Home().nuevaEntidadBoton()"> <img src="../img/home_32x32.png" align="absmiddle">NUEVA ENTIDAD</a></td>
+		</tr>
+
+		<tr>
+	    	 <td><strong>A NOMBRE:</strong></td>
+	            <td><input name="txt_vent_cotizador_proforma" id="txt_vent_cotizador_proforma" type="text" class="txt_campo" />
+	            	<div id="div_error_txt_vent_cotizador_proforma"></div></td>
+	            <!--td>{cod_cliente}<div id="div_error_txt_vent_cliente_proforma"></div></td-->
+		</tr>
+		
+		 <tr>
+	    	 <td><strong>FECHA INICIO:</strong></td>
+	            <td><input name="txt_vent_fch_inc_proforma" id="txt_vent_fch_inc_proforma" type="text" class="txt_campo" /><div id="div_error_txt_vent_fch_inc_proforma"></div></td>
+		</tr>
+		 <tr>
+	    	 <td><strong>FECHA ENTREGA:</strong></td>
+	            <td><input name="txt_vent_fch_entr_proforma" id="txt_vent_fch_entr_proforma" type="text" class="txt_campo" /><div id="div_error_txt_vent_fch_entr_proforma"></div></td>
+		</tr>
+		<!--tr>
+	    	 <td><strong>Tipo de Compra:</strong></td>
+	            <td>{tipo_compra}<div id="div_error_txt_vent_tcomp_proforma"></div></td>
+		</tr-->
+		<tr>
+	    	 <td><strong>FORMA DE PAGO:</strong></td>
+	            <td>{form_pago}<div id="div_error_txt_vent_fpago_proforma"></div></td>
+		</tr>
+        </table>
+    <br>
+     <center><input type="submit" value="REGISTRAR NUEVA COTIZACION" id="bt_submit_vent_nueva_cotizacion_priv" class="btn_form"><input type="button" value="CANCELAR" id="bt_cancelar_nueva_cotizacion_priv" class="btn_form" onclick="new Venta().cancelarVentaPriv();"></center>
+  </form>
+</div>

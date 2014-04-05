@@ -1,0 +1,1309 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"json",
+				"json_data_final"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"u",
+				"util"
+			],
+			[
+				"ingreso",
+				"ingreso_tpl"
+			],
+			[
+				"in",
+				"index_model"
+			],
+			[
+				"getD",
+				"getUsuarioDatos"
+			],
+			[
+				"nom",
+				"nom_prov"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"for",
+				"formData"
+			],
+			[
+				"pro",
+				"prov"
+			],
+			[
+				"productos",
+				"Productos"
+			],
+			[
+				"Pro",
+				"producto"
+			],
+			[
+				"PRod",
+				"ProductosRouter"
+			],
+			[
+				"f",
+				"formu"
+			],
+			[
+				"Produ",
+				"Producto"
+			],
+			[
+				"lista_pro",
+				"lista_prod"
+			],
+			[
+				"codigo",
+				"codigo_proyecto"
+			],
+			[
+				"codi",
+				"codigo_producto"
+			],
+			[
+				"pal",
+				"palabra_buscar"
+			],
+			[
+				"res",
+				"resultado"
+			],
+			[
+				"data",
+				"dataString"
+			],
+			[
+				"model",
+				"home_model"
+			],
+			[
+				"producto",
+				"productos"
+			],
+			[
+				"co",
+				"cotizaciones"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"codig",
+				"codigo_producto_cab"
+			],
+			[
+				"c",
+				"crearTablasBase"
+			],
+			[
+				"get",
+				"getJSON"
+			],
+			[
+				"produ",
+				"productoSeleccionado"
+			],
+			[
+				"id",
+				"id_unico"
+			],
+			[
+				"produc",
+				"productoEnfocado"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"clie",
+				"cliente"
+			],
+			[
+				"nu",
+				"num"
+			],
+			[
+				"lim",
+				"limit"
+			],
+			[
+				"marign",
+				"margin-left"
+			],
+			[
+				"ap",
+				"apc"
+			],
+			[
+				"listar",
+				"listarProductosStock"
+			],
+			[
+				"parse",
+				"parseListaClientes"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"button"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"prod",
+				"producto"
+			],
+			[
+				"p",
+				"producto"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"log",
+				"loginUsuario"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"tabl",
+				"tabla_cabecera"
+			],
+			[
+				"tab",
+				"tabla_cabecera"
+			],
+			[
+				"login",
+				"login_usr"
+			],
+			[
+				"clien",
+				"cliente_id"
+			],
+			[
+				"lis",
+				"list_clientes"
+			],
+			[
+				"busca",
+				"buscar_palabra"
+			],
+			[
+				"b",
+				"buscar_palabra"
+			],
+			[
+				"pagi",
+				"paginacion_div"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"dat",
+				"datos_cliente"
+			],
+			[
+				"cli",
+				"cliente_model"
+			],
+			[
+				"cl",
+				"cliente"
+			],
+			[
+				"num",
+				"num_par"
+			],
+			[
+				"limit",
+				"limit_par"
+			],
+			[
+				"di",
+				"dialog-confirm"
+			],
+			[
+				"ma",
+				"max_id"
+			],
+			[
+				"ca",
+				"cant"
+			],
+			[
+				"n",
+				"num_cel"
+			],
+			[
+				"setM",
+				"setMigaPan"
+			],
+			[
+				"Inde",
+				"IndexModel"
+			],
+			[
+				"inde",
+				"index_view"
+			],
+			[
+				"PRITN",
+				"print_r"
+			],
+			[
+				"sett",
+				"settingHeaders"
+			],
+			[
+				"confi",
+				"configuracionHead"
+			],
+			[
+				"Ind",
+				"IndexView"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"t",
+				"target	Attr"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"TE",
+				"template"
+			],
+			[
+				"Prod",
+				"productos"
+			],
+			[
+				"Print",
+				"print_r"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"json_dat",
+				"json_data_final"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ti",
+				"tipo_item_prod_nuevo"
+			],
+			[
+				"tipo",
+				"tipos_item_prod"
+			],
+			[
+				"to",
+				"total_paginas"
+			],
+			[
+				"tabla",
+				"tabla_detalle"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lista",
+				"listarClientes"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"Cliente",
+				"Cliente"
+			],
+			[
+				"clin",
+				"cliente_view"
+			],
+			[
+				"cliente",
+				"cliente_controller"
+			],
+			[
+				"li",
+				"library"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"home",
+				"home_view"
+			],
+			[
+				"Home",
+				"HomeView"
+			],
+			[
+				"ventas",
+				"ventas_view"
+			],
+			[
+				"run",
+				"runIndex"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"id_fo",
+				"id_formulario"
+			],
+			[
+				"boto",
+				"botones_cabecera"
+			],
+			[
+				"conten",
+				"content_tab"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"menu",
+				"menu_header"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"Index",
+				"IndexController"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "almacenes/site/js/Index.js",
+			"settings":
+			{
+				"buffer_size": 38323,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "almacenes/site/ingreso_tpl/nuevo_form_lista_ingreso_detalle_tpl.html",
+			"settings":
+			{
+				"buffer_size": 1676,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div id=\"tpl_alm_form_modificar_ingreso_detalle\" style=\"display:none;\" title=\"Nuevo Ingreso Almacenes\">\n	<h3><img src=\"../img/alm_ing_32x32.png\" align=\"absmiddle\"> Registrar Nuevo Ingreso</h3>\n	<hr style=\"border:1px dashed;\">\n	<form id=\"form_alm_mdificar_ingreso_cab\">\n\n<table  border=\"0\" id=\"tb_cab_mod\" align=\"center\">\n  <tr>\n    <td colspan=\"2\" rowspan=\"2\" align=\"center\" valign=\"middle\"><img src=\"../img/logo.png\" align=\"absmiddle\" width=\"235\" height=\"45\"></td>\n    <td >&nbsp;</td>\n    <td >&nbsp;</td>\n    <td >&nbsp;</td>\n    <td >&nbsp;</td>\n  </tr>\n  <tr>\n    <td colspan=\"3\"></td>\n    <td><h2><label for=\"numero_unico\" id=\"nro_nota\">NRO:</label><input type=\"text\" name=\"nro_nota_edit\" id=\"nro_nota_edit\" class=\"txt_campo\" readonly=\"readonly\"></h2></td>\n  </tr>\n  <tr>\n    <td colspan=\"6\"><h2><center>NOTA DE INGRESO</center></center></h2></td>\n  </tr>\n  <tr>\n    <td ><label for=\"textfield\">NOMBRE :</label></td>\n    <td >{nombre_almacenero}<input type=\"hidden\" name=\"alm_unico_ing_edit\" id=\"alm_unico_ing_edit\" class=\"txt_campo\"><input type=\"hidden\" name=\"alm_motivo_ing_edit_01\" id=\"alm_motivo_ing_edit_01\" class=\"txt_campo\"></td>\n    <td>&nbsp;</td>\n    <td></td>\n    <td><label for=\"textfield\">FECHA :</label></td>\n    <td><input type=\"text\" name=\"alm_fec_ing_edit\" id=\"alm_fec_ing_edit\" class=\"txt_campo\"><div id=\"div_error_fecha\"></td>\n  </tr>\n  <tr>\n    <td><label for=\"textfield\">ORIGEN :</label></td>\n    <td>{origen}<div id=\"div_error_motivo\"></select></td>\n    <td>&nbsp;</td>\n    <td></td>\n    <td><label for=\"textfield\">DESTINO :</label></td>\n    <td>{destino}<div id=\"div_error_destino\"></select></td>\n  </tr>\n  \n</table>\n<p>\n <center></center>\n  <br><br>\n    <hr style=\"border:1px dashed;\">\n    <div id=\"btn_acciones\">\n      \n    </div>\n    <table border=\"0\" id=\"tb_item_det\" >\n      \n    </table>\n    <!--input type=\"button\" value=\"Ingresar Items\" id=\"btn_items_det_list\" class=\"btn_form\" onclick=\"new Index().eliminarNotaEntrega(\\''+ingresos.alm_ing_egr_det_cod_int+'\\')\"-->\n    <table border=\"0\" id=\"tb_mod_det\" class=\"table_usuario\">\n      \n    </table>\n    <table border=\"0\" id=\"tb_procesar_nota\" class=\"table_usuario\" align=\"center\">\n      \n    </table>\n    <br>\n    <br>\n     <input type=\"submit\" value=\"Procesar Nota de Ingreso\" id=\"bt_submit_alm_nuevo_ingreso\" class=\"btn_form\" > <input type=\"button\" value=\"Cancelar\" class=\"btn_form\" onclick=\"new Index().closeDialogModificarIngreso();\">\n	</form>\n</div>",
+			"file": "almacenes/site/ingreso_tpl/nuevo_form_ingreso_detalle_tpl.html",
+			"file_size": 2499,
+			"file_write_time": 130207954040347632,
+			"settings":
+			{
+				"buffer_size": 2438,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "almacenes/controllers/IndexController.php",
+			"settings":
+			{
+				"buffer_size": 15441,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "importaciones/js/Utilitarios.js",
+			"settings":
+			{
+				"buffer_size": 5389,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "almacenes/site/js/Egreso.js",
+			"settings":
+			{
+				"buffer_size": 37054,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/xampp/htdocs/Trebol/almacenes/alm_gest.php",
+		"/D/xampp/htdocs/Trebol/almacenes/controllers/IndexController.php",
+		"/D/xampp/htdocs/Trebol/almacenes/site/ingreso_tpl/nuevo_form_ingreso_detalle_tpl.html",
+		"/D/xampp/htdocs/Trebol/lib/Mysql.php",
+		"/D/xampp/htdocs/Trebol/importaciones/lib/Mysql.php",
+		"/D/xampp/htdocs/Trebol/productos/lib/Mysql.php",
+		"/D/xampp/htdocs/Trebol/configuracion.php",
+		"/D/xampp/htdocs/Trebol/almacenes/site/js/Egreso.js",
+		"/D/xampp/htdocs/Trebol/almacenes/site/js/Index.js",
+		"/D/xampp/htdocs/Trebol/almacenes/site/ingreso_tpl/dialogo_confirm.html",
+		"/D/xampp/htdocs/Trebol/importaciones/js/Utilitarios.js",
+		"/D/xampp/htdocs/Trebol/almacenes/views/IndexView.php",
+		"/D/xampp/htdocs/Trebol/almacenes/site/ingreso_tpl/nuevo_form_ingreso_det_tpl.html",
+		"/D/xampp/htdocs/Trebol/almacenes/site/egreso_tpl/dialogo_confirm.html",
+		"/D/xampp/htdocs/Trebol/almacenes/site/ingreso_tpl/nuevo_form_ingreso_tpl.html",
+		"/D/xampp/htdocs/Trebol/almacenes/site/ingreso_tpl/nuevo_form_lista_ingreso_detalle_tpl.html",
+		"/D/xampp/htdocs/Trebol/almacenes/site/js/Devolucion.js",
+		"/D/xampp/htdocs/Trebol/almacenes/site/js/Traspaso.js",
+		"/D/xampp/htdocs/Trebol/almacenes/models/IndexModel.php",
+		"/D/xampp/htdocs/Trebol/almacenes/controllers/EgresoController.php",
+		"/D/xampp/htdocs/Trebol/almacenes/models/EgresoModel.php",
+		"/D/xampp/htdocs/Trebol/almacenes/site/egreso_tpl/nuevo_form_egreso_tpl.html",
+		"/D/xampp/htdocs/Trebol/almacenes/views/EgresoView.php",
+		"/D/xampp/htdocs/Trebol/almacenes/cabecera.php",
+		"/D/xampp/htdocs/Trebol/almacenes/site/home.html",
+		"/D/xampp/htdocs/Trebol/importaciones/index.php",
+		"/D/xampp/htdocs/Trebol/importaciones/imp_gest_imp.php",
+		"/D/xampp/htdocs/Trebol/productos/js/Utilitarios.js",
+		"/D/xampp/htdocs/Trebol/productos/js/Productos.js",
+		"/D/xampp/htdocs/Trebol/productos/router/ProductosRouter.php",
+		"/D/xampp/htdocs/Trebol/productos/clases/Productos.php",
+		"/D/xampp/htdocs/Trebol/productos/prod_gest.php",
+		"/D/xampp/htdocs/Trebol/css/estilo.css",
+		"/D/xampp/htdocs/Trebol/productos/tpl/formulario_modif_productos_tpl.html",
+		"/D/xampp/htdocs/Trebol/productos/tpl/dialogos_msg_tpl.html",
+		"/D/xampp/htdocs/Trebol/productos/tpl/dialogo_msg_tpl.html",
+		"/D/xampp/htdocs/Trebol/productos/tpl/det_dialogo_msg_tpl.html",
+		"/D/xampp/htdocs/Trebol/productos/js/GestionProductos.js",
+		"/D/xampp/htdocs/Trebol/productos/clases/Utilitarios.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cotizacion_tpl/dialog_confirm_cot_tpl.html",
+		"/D/xampp/htdocs/Trebol/importaciones/clases/Utilitarios.php",
+		"/D/xampp/htdocs/Dropbox/interMovil/app/services.js",
+		"/D/xampp/htdocs/Dropbox/interMovil/app/data.js",
+		"/D/xampp/htdocs/Dropbox/interMovil/app/events.js",
+		"/D/xampp/htdocs/Trebol/ventas/app/views/HomeView.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/js/Home.js",
+		"/D/xampp/htdocs/Trebol/ventas/app/controllers/CotizacionesController.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cotizacion_tpl/nuevo_prod_item_detalle_cotizacion_tpl.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/models/Home.php",
+		"/D/xampp/htdocs/Trebol/services/controllers/ClienteController.php",
+		"/D/xampp/htdocs/Trebol/ventas/index.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/controllers/HomeController.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/views/ClienteView.php",
+		"/D/xampp/htdocs/Dropbox/interMovil/app/app.js",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cliente_tpl/nuevo_form_cliente_tpl.html",
+		"/D/xampp/htdocs/Dropbox/interMovil/index.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cotizacion_tpl/nuevo_prod_cotizacion_priv_tpl.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/css/ventas.css",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/js/Cliente.js",
+		"/D/xampp/htdocs/Trebol/importaciones/js/Proyecto.js",
+		"/D/xampp/htdocs/Dropbox/interMovil/app/view.js",
+		"/D/xampp/htdocs/Trebol/services/index.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/models/Cliente.php",
+		"/D/xampp/htdocs/Dropbox/interMovil/components/lungo/lungo.js",
+		"/D/xampp/htdocs/Trebol/ventas/app/controllers/ClientesController.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/models/Venta.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cotizacion_tpl/nuevo_detalle_form_cotizacion_priv_tpl.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cotizacion_tpl/nueva_form_cotizacion_priv_tpl.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cotizacion_tpl/nuevo_prod_cotizacion_priv_tpl.html.bck",
+		"/D/xampp/htdocs/Trebol/valida_psw_tb.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/home.html",
+		"/D/xampp/htdocs/Trebol/importaciones/router/ProyectoRouter.php",
+		"/D/xampp/htdocs/Trebol/importaciones/clases/Proyecto.php",
+		"/D/xampp/htdocs/Trebol/importaciones/js/OrdenCompra.js",
+		"/D/xampp/htdocs/Trebol/services/Slim/Slim.php",
+		"/D/xampp/htdocs/Trebol/services/app/controllers/ClientesController.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cliente_tpl/edit_form_cliente_tpl.html",
+		"/D/xampp/htdocs/RestoMovil/app/events.js",
+		"/D/xampp/htdocs/Trebol/importaciones/clases/OrdenCompra.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cliente_tpl/dialog_confirm_tpl.html",
+		"/D/xampp/htdocs/Trebol/importaciones/tpl/dialogo_msg_hoja_tpl.html",
+		"/D/xampp/htdocs/Trebol/ventas/.htaccess",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/menu_header.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/header.html",
+		"/D/xampp/htdocs/Dropbox/web/index.html",
+		"/D/xampp/htdocs/Dropbox/web/mail.php",
+		"/D/xampp/htdocs/Dropbox/web/js/Argo.js",
+		"/D/xampp/htdocs/Trebol/almacenes/index.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/cliente_tpl/tab_clientes.html",
+		"/D/xampp/htdocs/web/js/Argo.js",
+		"/D/xampp/htdocs/web/css/estilo.css",
+		"/D/xampp/htdocs/web/index.html",
+		"/D/xampp/htdocs/RestoMovil/app/services.js",
+		"/D/xampp/htdocs/Dropbox/webargo/css/estilo.css",
+		"/D/xampp/htdocs/Dropbox/webargo/index.html",
+		"/D/xampp/htdocs/Dropbox/webargo/js/Argo.js",
+		"/D/xampp/htdocs/Trebol/productos/router/CargarCabecera.php",
+		"/D/xampp/htdocs/Trebol/productos/cabecera.php",
+		"/D/xampp/htdocs/Trebol/importaciones/cabecera.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/controllers/VentasController.php",
+		"/D/xampp/htdocs/Trebol/alm_gest_imp_alta.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/tab_content.html",
+		"/D/xampp/htdocs/Trebol/importaciones/tpl/orden_compra_form_tpl.html",
+		"/D/xampp/htdocs/Trebol/importaciones/clases/ItemOrdenCompra.php",
+		"/D/xampp/htdocs/Trebol/importaciones/js/ItemOrdenCompra.js",
+		"/D/xampp/htdocs/Trebol/importaciones/router/ItemCompraRouter.php",
+		"/D/xampp/htdocs/Trebol/importaciones/js/GestionImportacion.js",
+		"/D/xampp/htdocs/Trebol/importaciones/tpl/orden_compra_nuevo_item_tpl.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/tab_clientes.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/views/VentaView.php",
+		"/D/xampp/htdocs/jgrid/index.htm",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/tab_ventas.html",
+		"/D/xampp/htdocs/webargo/index.html",
+		"/D/xampp/htdocs/webargo/css/estilo.css",
+		"/D/xampp/htdocs/contador/index.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/tools/ClaseFormulario.php",
+		"/D/xampp/htdocs/Trebol/importaciones/clases/MenuDinamico.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/css/style.css",
+		"/D/xampp/htdocs/Trebol/ventas/readme.md",
+		"/D/xampp/htdocs/Trebol/ventas/classes/loader.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/site/index.html",
+		"/D/xampp/htdocs/Trebol/ventas/app/controller/IndexController.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/view/IndexView.php",
+		"/D/xampp/htdocs/Trebol/menu_s.php",
+		"/D/xampp/htdocs/Trebol/modulo.php",
+		"/D/xampp/htdocs/Trebol/ventas/app/model/User.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"form_alm_nuevo_ingreso_det",
+			"form_alm_mdificar_ingreso_cab",
+			"form_alm_nuevo_ingreso_det",
+			"IngresoDetalle",
+			"eliminarIngresoDet",
+			"IngresaNuevoItemCabDet",
+			"			\n",
+			"form_alm_nuevo_ingreso",
+			"loader_producto_precarga_bg",
+			"iniPreloaderStart",
+			"form_alm_nuevo_egreso_01",
+			"cancelarCabEgreso",
+			"dato_usuario",
+			"alm_fec_ing",
+			"listarCabeceraProductosexistentes",
+			"cabecera_gest_prod",
+			"btn_form",
+			"Nuevo Producto",
+			"prov_mod",
+			"modificarCabeceraProducto",
+			"ModificarProducto",
+			"listaGeneralProductos();",
+			"listaGeneralProductos",
+			"listarCabeceraProductosexistentes",
+			"codigo",
+			"img_1",
+			"'vacio'",
+			"grabarModificacionCabProdModif",
+			"dat_tec_1",
+			"img_1",
+			"cancelarDetProducto",
+			"modificarCabeceraProducto",
+			"ModificarProducto",
+			"nuevoProducto",
+			"darBajaProductos",
+			"eliminarCabeceraProducto",
+			"desabilitarProducto",
+			"EliminarProducto",
+			"eliminarDetProducto",
+			"listaProductosExistentes",
+			"listarCabeceraProductosexistentes",
+			"cabecera_gest_prod",
+			"tabla_cab_productos",
+			"formularioDetalleProductos_tpl",
+			"nuevoProducto",
+			"codigo_proyecto",
+			"var",
+			"buscarProductoBtn",
+			"EliminarProducto",
+			"modificarCabeceraProducto",
+			"EliminarProducto",
+			"modificarCabeceraProducto",
+			"ModificarProducto",
+			"resultado",
+			"lista_producto_enfocado",
+			"[0]",
+			"producto_seleccionado",
+			"productoEnfocado",
+			"seleccionarProducto",
+			"productoEnfocado",
+			"listaProductosExistentes",
+			"productoSeleccionado",
+			"listarBusquedaProductos",
+			"buscarProductos",
+			"buscarProyecto",
+			"keyup",
+			"buscarProductoBtn",
+			"cliente",
+			"result",
+			"listarProductosXSource",
+			"buscarProductosStock",
+			"buscarProductoXPalabraStock",
+			"buscarProductosStock",
+			"buscarCliente",
+			"apd",
+			"listaCotizacionPriv",
+			"ABLA",
+			"}\n",
+			"respuestaJson",
+			"print",
+			"echo",
+			"tpl_vent_form_nuevo_cotizacion_priv",
+			"p",
+			"strong",
+			"valores",
+			"tpl_vent_form_nuevo_cliente",
+			"editarDatosCliente",
+			"tpl_vent_form_edit_cliente",
+			"getCodigoUnicoCliente",
+			"$('#txt_vent_nombre_cliente_edit').val(res.vent_cli_nombre);",
+			"editarCliente",
+			"txt_vent_numero_interno",
+			"txt_vent_cliente_persona_contacto",
+			"txt_vent_razon_social_cliente",
+			"txt_area_vent_dirrecion_cliente",
+			"txt_vent_nit_cliente",
+			"txt_vent_celular_cliente",
+			"txt_vent_telefono_cliente",
+			"txt_vent_cliente_correo",
+			"txt_vent_departamento_cliente",
+			"txt_vent_apellido_mat_cliente",
+			"txt_vent_cargo_cliente",
+			"txt_vent_apellido_pat_cliente",
+			"txt_vent_empresa_cliente",
+			"txt_vent_nombre_cliente",
+			"nuevoCliente",
+			"setNuevaFormCotizacion",
+			"settingHeaders",
+			"actualizarListaOdenCompra",
+			"formularioListaOrdenCompra",
+			"En construccion",
+			"email",
+			" \";",
+			"php",
+			"<a href=\"http://www.clasificadoscochabamba.com\" target=\"_blank\">",
+			"http://ch-producciones.com/",
+			"</a>",
+			"	 /* Webkit (Safari/Chrome) */ -webkit-box-shadow: 0px 3px 9px 1px #666666;\n	/* Mozilla Firefox */ -moz-box-shadow: 0px 3px 9px 1px #666666;\n	/* Proposed W3C Markup */ box-shadow: 0px 3px 9px 1px #666666;",
+			"	 /* Webkit (Safari/Chrome) */ -webkit-box-shadow: 3px 4px 8px 1px #CCCCCC;\n	/* Mozilla Firefox */ -moz-box-shadow: 3px 4px 8px 1px #CCCCCC;\n	/* Proposed W3C Markup */ box-shadow: 3px 4px 8px 1px #CCCCCC;",
+			"png",
+			"<a href=\"http://twitter.com/argo-si\">",
+			"<a href=\"http://facebook.com/argo-si\">",
+			"'Open Sans', sans-serif",
+			"25",
+			"button-link",
+			"</strong>",
+			"<strong>",
+			" <strong>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "almacenes/site/js/Index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1275,
+								1275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "almacenes/site/ingreso_tpl/nuevo_form_lista_ingreso_detalle_tpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1676,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "almacenes/site/ingreso_tpl/nuevo_form_ingreso_detalle_tpl.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "almacenes/controllers/IndexController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8284,
+								8292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2205.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "importaciones/js/Utilitarios.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1619,
+								1619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "almacenes/site/js/Egreso.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14690,
+								14648
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3915.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "trebol.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"Trebol\\configuracion.php"
+			],
+			[
+				"mysql",
+				"Trebol\\productos\\lib\\Mysql.php"
+			],
+			[
+				"mysq",
+				"Trebol\\importaciones\\lib\\Mysql.php"
+			],
+			[
+				"es",
+				"Trebol\\css\\estilo.css"
+			],
+			[
+				"gestionpro",
+				"Trebol\\productos\\js\\GestionProductos.js"
+			],
+			[
+				"prod",
+				"Trebol\\productos\\router\\ProductosRouter.php"
+			],
+			[
+				"product",
+				"Trebol\\productos\\js\\Productos.js"
+			],
+			[
+				"uti",
+				"Trebol\\productos\\clases\\Utilitarios.php"
+			],
+			[
+				"produ",
+				"Trebol\\productos\\clases\\Productos.php"
+			],
+			[
+				"produc",
+				"Trebol\\productos\\router\\ProductosRouter.php"
+			],
+			[
+				"event",
+				"interMovil\\app\\events.js"
+			],
+			[
+				"clientecon",
+				"Trebol\\services\\controllers\\ClienteController.php"
+			],
+			[
+				"cliente_",
+				"Trebol\\ventas\\app\\site\\cliente_tpl\\nuevo_form_cliente_tpl.html"
+			],
+			[
+				"cliente.js",
+				"Trebol\\ventas\\app\\site\\js\\Cliente.js"
+			],
+			[
+				"proye",
+				"Trebol\\importaciones\\js\\Proyecto.js"
+			],
+			[
+				"ventas.css",
+				"Trebol\\ventas\\app\\site\\css\\ventas.css"
+			],
+			[
+				"cotizacion",
+				"Trebol\\ventas\\app\\controllers\\CotizacionesController.php"
+			],
+			[
+				"home.php",
+				"Trebol\\ventas\\app\\models\\Home.php"
+			],
+			[
+				"home",
+				"Trebol\\ventas\\app\\views\\HomeView.php"
+			],
+			[
+				"index.html",
+				"interMovil\\index.html"
+			],
+			[
+				"index.php",
+				"Trebol\\services\\index.php"
+			],
+			[
+				"clientecontrol",
+				"Trebol\\services\\controllers\\ClienteController.php"
+			],
+			[
+				"view",
+				"interMovil\\app\\view.js"
+			],
+			[
+				"servi",
+				"interMovil\\app\\services.js"
+			],
+			[
+				"cliente",
+				"Trebol\\ventas\\app\\models\\Cliente.php"
+			],
+			[
+				"homeview",
+				"Trebol\\ventas\\app\\views\\HomeView.php"
+			],
+			[
+				"confi",
+				"Trebol\\configuracion.php"
+			],
+			[
+				"cli",
+				"Trebol\\ventas\\app\\controllers\\ClientesController.php"
+			],
+			[
+				"valida",
+				"Trebol\\valida_psw_tb.php"
+			],
+			[
+				"proyec",
+				"Trebol\\importaciones\\js\\Proyecto.js"
+			],
+			[
+				"poryect",
+				"Trebol\\importaciones\\router\\ProyectoRouter.php"
+			],
+			[
+				"orden",
+				"Trebol\\importaciones\\js\\OrdenCompra.js"
+			],
+			[
+				"clientecontr",
+				"Trebol\\ventas\\app\\controllers\\ClientesController.php"
+			],
+			[
+				"clientv",
+				"Trebol\\ventas\\app\\views\\ClienteView.php"
+			],
+			[
+				"clien",
+				"Trebol\\ventas\\app\\site\\js\\Cliente.js"
+			],
+			[
+				"ordencom",
+				"Trebol\\importaciones\\clases\\OrdenCompra.php"
+			],
+			[
+				"dialo",
+				"Trebol\\importaciones\\tpl\\dialogo_msg_hoja_tpl.html"
+			],
+			[
+				"utili",
+				"Trebol\\importaciones\\js\\Utilitarios.js"
+			],
+			[
+				"orde",
+				"Trebol\\importaciones\\js\\OrdenCompra.js"
+			],
+			[
+				"form",
+				"Trebol\\ventas\\app\\site\\cliente_tpl\\nuevo_form_cliente_tpl.html"
+			],
+			[
+				"home.htm",
+				"Trebol\\ventas\\app\\site\\home.html"
+			],
+			[
+				"cabecera.php",
+				"Trebol\\importaciones\\cabecera.php"
+			],
+			[
+				"ges",
+				"Trebol\\alm_gest_imp_alta.php"
+			],
+			[
+				"inde",
+				"Trebol\\ventas\\index.php"
+			],
+			[
+				"estil",
+				"Trebol\\css\\estilo.css"
+			],
+			[
+				"cliente_tp",
+				"Trebol\\ventas\\app\\site\\cliente_tpl\\tab_clientes.html"
+			],
+			[
+				"tap_cl",
+				"Trebol\\ventas\\app\\site\\tab_content.html"
+			],
+			[
+				"ordencomp",
+				"Trebol\\importaciones\\js\\OrdenCompra.js"
+			],
+			[
+				"clientesc",
+				"Trebol\\ventas\\app\\controllers\\ClientesController.php"
+			],
+			[
+				"index",
+				"Trebol\\ventas\\index.php"
+			],
+			[
+				"clientevi",
+				"Trebol\\ventas\\app\\views\\ClienteView.php"
+			],
+			[
+				"estilo",
+				"Trebol\\css\\estilo.css"
+			],
+			[
+				"clientes",
+				"Trebol\\ventas\\app\\controllers\\ClientesController.php"
+			],
+			[
+				"home.js",
+				"Trebol\\ventas\\app\\site\\js\\Home.js"
+			],
+			[
+				"modu",
+				"modulo.php"
+			],
+			[
+				"menu",
+				"menu_s.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

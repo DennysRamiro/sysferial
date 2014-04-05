@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"nuev",
+				"nuevaimagen"
+			],
+			[
+				"imagecr",
+				"imagecreatetruecolor"
+			],
+			[
+				"in",
+				"info"
+			],
+			[
+				"wi",
+				"whidth"
+			],
+			[
+				"name",
+				"nameimagen"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"fe",
+				"fecha_salida_socio"
+			],
+			[
+				"fec",
+				"fecha_ingreso_socio"
+			],
+			[
+				"exp",
+				"expedido_ci"
+			],
+			[
+				"car",
+				"carnet_propietario"
+			],
+			[
+				"apell",
+				"apellido_mat_propietario"
+			],
+			[
+				"OP",
+				"OPTION	Tag"
+			],
+			[
+				"td",
+				"TD	Tag"
+			],
+			[
+				"IN",
+				"INPUT	Tag"
+			],
+			[
+				"inpu",
+				"INPUT	Tag"
+			],
+			[
+				"tr",
+				"TR	Tag"
+			],
+			[
+				"table",
+				"TABLE	Tag"
+			],
+			[
+				"cent",
+				"CENTER	Tag"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"form",
+				"FORM	Tag"
+			],
+			[
+				"da",
+				"datos"
+			],
+			[
+				"re",
+				"resultadoNomb"
+			],
+			[
+				"mysq",
+				"mysql_close"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"con",
+				"consulta"
+			],
+			[
+				"co",
+				"consulta"
+			],
+			[
+				"usuari",
+				"usuario"
+			],
+			[
+				"Pass",
+				"password"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"u",
+				"unless	unless … end"
+			],
+			[
+				"de",
+				"def	def … end"
+			],
+			[
+				"pt",
+				"puts"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"pr",
+				"prueba2"
+			],
+			[
+				"o",
+				"or"
+			],
+			[
+				"O",
+				"or"
+			],
+			[
+				"and",
+				"andyor"
+			],
+			[
+				"pru",
+				"prueba2"
+			],
+			[
+				"prue",
+				"prueba1"
+			],
+			[
+				"ne",
+				"negacion"
+			],
+			[
+				"op",
+				"operadores"
+			],
+			[
+				"i",
+				"ifelse"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/estilo.css",
+			"settings":
+			{
+				"buffer_size": 14977,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modulo.php",
+			"settings":
+			{
+				"buffer_size": 25361,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 332.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 242.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/kuma/configuracion.php",
+		"/C/xampp/htdocs/kuma/index.php",
+		"/C/xampp/htdocs/kuma/modulo.php",
+		"/C/xampp/htdocs/kuma/kumav0.1.sublime-workspace",
+		"/C/xampp/htdocs/kuma/kuma.sublime-workspace",
+		"/C/xampp/htdocs/kumav0.1/act_deu_int.php",
+		"/C/xampp/htdocs/kumav0.1/modulo.php",
+		"/C/xampp/htdocs/kumav0.1/gral_man_usr_c.php",
+		"/C/xampp/htdocs/kumav0.1/css/estilo.css",
+		"/C/xampp/htdocs/kumav0.1/act_ufv.php",
+		"/C/Users/Ruth/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/C/xampp/htdocs/kumav0.1/js/Modulo.js",
+		"/C/xampp/htdocs/kumav0.1/act_nrodoc.php",
+		"/C/xampp/htdocs/kumav0.1/gral_man_usr.php",
+		"/C/xampp/htdocs/kumav0.1/menu_s.php",
+		"/C/xampp/htdocs/kumav0.1/kumav0.1.sublime-project",
+		"/C/xampp/htdocs/kumav0.1/clie_reportes.php",
+		"/C/xampp/htdocs/kumav0.1/js/MantListaUsuario.js",
+		"/C/xampp/htdocs/kumav0.1/gral_cam_fec.php",
+		"/C/xampp/htdocs/kumav0.1/gral_man_usr_m.php",
+		"/C/xampp/htdocs/kumav0.1/js/MenuManUsuarioModificar.js",
+		"/C/xampp/htdocs/kumav0.1/gral_con_m.php",
+		"/C/xampp/htdocs/kumav0.1/gral_man_usr_cm.php",
+		"/C/xampp/htdocs/kumav0.1/grab_retro_u.php",
+		"/C/xampp/htdocs/kumav0.1/js/MenuManUsuario.js",
+		"/C/xampp/htdocs/kumav0.1/gral_man_usr_a.php",
+		"/C/xampp/htdocs/kumav0.1/gral_verif_mod.php",
+		"/C/xampp/htdocs/kumav0.1/js/MantUsuarioAlta.js",
+		"/C/xampp/htdocs/kumav0.1/js/CambiarFecha.js",
+		"/C/xampp/htdocs/kumav0.1/footer_in.php",
+		"/C/xampp/htdocs/kumav0.1/configuracion.php",
+		"/C/xampp/htdocs/kumav0.1/footer.php",
+		"/C/xampp/htdocs/proyecto_redimencionar_imagen/index.php",
+		"/C/xampp/htdocs/proyecto_redimencionar_imagen/redimensionar.php",
+		"/C/xampp/htdocs/proyecto_transporte/redimensionar_img.php",
+		"/C/xampp/htdocs/proyecto_transporte/verificar_usuario.php",
+		"/C/xampp/htdocs/proyecto_transporte/insertar_datos_socio.php",
+		"/C/xampp/htdocs/proyecto_transporte/insertar_socio.php",
+		"/C/xampp/htdocs/proyecto_transporte/lista_socios.php",
+		"/C/xampp/htdocs/proyecto_transporte/css/estilo.css",
+		"/C/xampp/htdocs/proyecto_transporte/index.php",
+		"/C/xampp/htdocs/proyecto_transporte/gd.php",
+		"/C/xampp/htdocs/proyecto_transporte/guardar_imagen.php",
+		"/C/xampp/htdocs/intersanitas/index.html",
+		"/C/xampp/htdocs/proyecto_transporte/eliminar_socio.php",
+		"/C/xampp/htdocs/proyecto_transporte/transformar_imagene.php",
+		"/C/xampp/htdocs/proyecto_transporte/css/insertar_socio.php",
+		"/C/xampp/htdocs/proyecto_transporte/conexion.php",
+		"/C/xampp/htdocs/contraseña/database.php",
+		"/C/xampp/htdocs/contraseña/index.php",
+		"/E/daniel/paracticasRuby/HolaClass.rb"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"documents",
+			"form",
+			"cell",
+			"table"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 1719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/estilo.css",
+					"settings":
+					{
+						"buffer_size": 14977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5610,
+								5610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4547.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "modulo.php",
+					"settings":
+					{
+						"buffer_size": 25361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1811,
+								1811
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 106.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.unsaved_changes":
+	{
+		"height": 258.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"modulo",
+				"modulo.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/kumav0.1/kumav0.1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true
+}

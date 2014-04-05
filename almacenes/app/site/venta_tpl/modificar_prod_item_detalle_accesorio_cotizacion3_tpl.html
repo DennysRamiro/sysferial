@@ -1,0 +1,44 @@
+<div id="tpl_vent_form_modificar_item_cabecera_accesorio04" style="display:none;" title="MODIFICAR ACCESORIO">
+	<h3><img src="../img/stuff_32x32.png" align="absmiddle"> MODIFICAR ACCESORIO - <span id="div_vent_codigo_unico_producto_item_accesorio04"></span></h3>
+	<hr style="border:1px dashed;">
+	<form id="form_vent_modificar_item_cabecera_formulario_accesorio04">
+    <input type="hidden" id="id_cab_prof_venta_codigo_unico_accesorio04" name="id_cab_prof_venta_codigo_unico_accesorio04">
+		<table>
+          <tr>
+            <td><strong>PROVEEDOR:</strong></td>
+            <td><div id="div_vent_proveedor_vent_accesorio04"></div><input type="hidden" name="id_codigo_proveedor_accesorio04" id="id_codigo_proveedor_accesorio04"><input type="hidden" name="id_marca_prod_item_accesorio_nombre_prov04" id="id_marca_prod_item_accesorio_nombre_prov04"></td>
+            <td><strong>ITEM:</strong></td>
+            <td><div id="div_nombre_item_accesorio_det04"></div>
+            <input type="hidden" id="h_vent_nombre_unico_det_accesorio04" name="h_vent_nombre_unico_det_accesorio04"> 
+            <input type="hidden" name="txt_vent_codigo_unico_det_accesorio04" id="txt_vent_codigo_unico_det_accesorio04"  class="txt_campo" />
+            <input type="hidden" name="id_codigo_cabecera_prof_venta_prod_accesorio04" id="id_codigo_cabecera_prof_venta_prod_accesorio04">
+            <input type="hidden" name="id_codigo_cotizacion_prof_venta_prod_accesorio04" id="id_codigo_cotizacion_prof_venta_prod_accesorio04" >
+            <input type='hidden' name='codigo_cotizacion_prof_venta_prod_accesorio_id_item04' id='codigo_cotizacion_prof_venta_prod_accesorio_id_item04'>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>ESTADO PRODUCTO:</strong></td>
+            <td><div id="div_vent_estado_producto_dispo_accesorio04"></div></td>
+            <td><!--strong>MARCA:</strong--></td>
+            <td><!--div id="div_marca_prod_form_item_accesorio04"></div><input type="hidden" name="id_marca_prod_item_accesorio04" id="id_marca_prod_item_accesorio04"--> </td>
+                       
+          </tr>
+          <tr>
+            <td><strong>P. VENTA MIN:</strong></td>
+            <td><input type="text" readonly="" id="div_vent_precio_vent_min_accesorio04" name="div_vent_precio_vent_min_accesorio04" class="txt_campo"></td>
+            <td><strong>P. VENTA MAX:</strong></td>
+            <td><input type="text" readonly="" id="div_vent_precio_vent_max_accesorio04" name="div_vent_precio_vent_max_accesorio04" class="txt_campo"></td>
+          </tr>
+          <tr>
+            <td><strong>P. VENTA:</strong></td>
+            <td><input name="txt_vent_precio_venta_form_item_accesorio04" id="txt_vent_precio_venta_form_item_accesorio04" type="text" class="txt_campo"/><div id="div_error_vent_precio_venta_accesorio04"></div> <input type="hidden" name="id_codigo_tipo_moneda_accesorio04" id="id_codigo_tipo_moneda_accesorio04" ></td>
+            <td><strong>CANTIDAD:</strong></td>
+            <td><input name="txt_vent_item_cant_prod_accesorio04" id="txt_vent_item_cant_prod_accesorio04" type="text" class="txt_campo"/><div id="div_error_item_cant_prod_accesorio04"></div></td>
+          </tr>
+        </table>
+        <center>
+          <input type="submit" value="PROCESAR ACCESORIO" class="btn_form"> 
+          <input type="button" value="CANCELAR" class="btn_form" onclick="new Home().closeDialogoAccesorio04();">
+        </center>
+	</form>
+</div>

@@ -1,0 +1,36 @@
+<div id="tpl_alm_form_nuevo_egreso" style="display:none;" title="NUEVO EGRESO ALMACENES">
+	<h3><img src="../img/alm_egr_32x32.png" align="absmiddle">NUEVO EGRESO</h3>
+	<hr style="border:1px dashed;">
+	<form id="form_alm_nuevo_egreso_01">
+  <table  border="0">
+  <tr>
+    <td >&nbsp;</td>
+    <td >&nbsp;</td>
+    <td >&nbsp;</td>
+    <td >&nbsp;</td>
+    <td >&nbsp;</td>
+    <td><!--label for="textfield5">NRO:</label><input type="text" name="alm_nro_ing" id="alm_nro_ing" value="123456" readonly="readonly" class="txt_campo"--></td>
+  </tr>
+  <tr>
+    <td ><label for="textfield"><strong>OPERADOR :</strong></label></td>
+    <td >{nombre_almacenero}<input type="hidden" name="alm_motivo_egr" id="alm_motivo_egr" class="txt_campo" ></td>
+    <td>&nbsp;</td>
+    <td></td>
+    <td><label for="textfield"><strong>FECHA :</strong></label></td>
+    <td><input type="text" name="alm_fec_egr" id="alm_fec_egr" class="txt_campo" ><div id="div_error_fecha"></td>
+  </tr>
+  <tr>
+    <td><label for="textfield"><strong>ORIGEN :</strong></label></td>
+    <td>{origen}<div id="div_error_motivo"></select></td>
+    <td>&nbsp;</td>
+    <td></td>
+    <td><label for="textfield"><strong>DESTINO :</strong></label></td>
+    <td>{destino}<div id="div_error_destino"></select></td>
+  </tr>
+  
+</table><br>
+<center><input type="submit" value="REGISTRAR NUEVO EGRESO" id="bt_submit_alm_nuevo_egreso" class="btn_form" ><input type="button" value="CANCELAR" id="bt_submit_alm_nuevo_egreso" class="btn_form" onclick="new Egreso().cancelarCabEgreso()"></center>
+
+	</form>
+  
+</div>

@@ -1,0 +1,52 @@
+<hr>
+<div id="id-detalle-ingreso-directas">
+    <form id="formAddNewRow" action="#" title="NUEVO PRODUCTO">
+    <table>
+        <tr>
+            <td> <label for="nomproducto-det-ingreso">NOMBRE PRODUCTO</label><br />
+                <input type="hidden" id="idCabecera-det-ingreso" name="idCabecera-det-ingreso" >
+                <input type="hidden" id="idProducto-det-ingreso" name="idProducto-det-ingreso" >
+                <input type="text" name="nomproducto-det-ingreso" id="nomproducto-det-ingreso" class="required txt_campo" rel="0"  /></td>
+            <td> <label for="codigoexterno-det-ingreso">CODIGO EXTERNO</label><br />
+                <input type="text" name="codigoexterno-det-ingreso" id="codigoexterno-det-ingreso" rel="1"  class="required txt_campo" /></td></tr>
+        <tr>
+            <td><label for="nomproveedor-det-ingreso">NOMBRE PROVEEDOR</label><br />
+        <input type="text" name="nomproveedor-det-ingreso" id="nomproveedor-det-ingreso" rel="2"  class="required txt_campo" /></td>
+            <td> <label for="categoria-det-ingreso">CATEGORIA</label><br />
+        <input type="text" name="categoria-det-ingreso" id="categoria-det-ingreso" rel="3"   class="required txt_campo"/></td>
+        </tr>
+        <tr>
+            <td><label for="marca-det-ingreso">MARCA</label><br />
+        <input type="text" name="marca-det-ingreso" id="marca-det-ingreso" rel="3"   class="required txt_campo"/></td>
+            <td><label for="presentacion-det-ingreso">TIPO DE PRESENTACION</label><br />
+        <input type="text" name="presentacion-det-ingreso" id="presentacion-det-ingreso" rel="3"   class="required txt_campo"/></td>
+        </tr>
+        <tr>
+            <td><label for="precioCompra-det-ingreso">PRECIO DE COMPRA</label><br />
+        <input type="text" name="precioCompra-det-ingreso" id="precioCompra-det-ingreso" rel="3"   class="required txt_campo"/></td>
+            <td><label for="fechaVencimiento-det-ingreso">FECHA VENCIMIENTO</label><br />
+        <input type="text" name="fechaVencimiento-det-ingreso" id="fechaVencimiento-det-ingreso" rel="3"   class="required txt_campo"/></td>
+        </tr>
+        <tr>
+            <td><label for="precioventa-det-ingreso">PRECIO DE VENTA</label><br />
+        <input type="text" name="precioventa-det-ingreso" id="precioventa-det-ingreso" rel="3"   class="required txt_campo"/></td>
+            <td><label for="cantidad-det-ingreso">CANTIDAD</label><br />
+        <input type="text" name="cantidad-det-ingreso" id="cantidad-det-ingreso" rel="3" value="1"   class="required txt_campo"/></td>
+        </tr>
+
+
+    </table>
+       
+    </form>
+    <table id="tabla-detalle-ingreso"  cellpadding="0" cellspacing="0" border="0" class="display">
+
+    </table>
+</div>
+<br>
+<div id="totales-campos-det-ingreso">
+   TOTAL : <input type="text" readonly id="total-ingreso-final">
+</div>
+<hr>
+<div id='footer-botonera-det-ingreso'>
+    <button id='btn-imprimir-ingreso' class="btn_form"> IMPRIMIR </button>
+</div>

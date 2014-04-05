@@ -1,0 +1,58 @@
+<div id="tpl_vent_form_nuevo_cliente_bot_publ" style="display:none;" title="NUEVO CLIENTE">
+	<h3><img src="../img/user office_32x32.png" align="absmiddle"> REGISTRAR NUEVO CLIENTE</h3>
+	<hr style="border:1px dashed;">
+	<form id="form_vent_nuevo_cliente_bot_publ">
+		<table>
+          <tr>
+            <td><strong>NOMBRE(S):</strong></td>
+            <td><input name="txt_vent_nombre_cliente_bot_publ" id="txt_vent_nombre_cliente_bot_publ" type="text" class="txt_campo" /><div id="div_error_vent_error_nombre_bot_publ"></div></td>
+            <td><strong>EMPRESA:</strong></td>
+            <td><input name="txt_vent_empresa_cliente_bot_publ" id="txt_vent_empresa_cliente_bot_publ" type="text" class="txt_campo" /></td>
+          </tr>
+          <tr>
+            <td><strong>APELLIDO PATERNO:</strong></td>
+            <td><input name="txt_vent_apellido_pat_cliente_bot_publ" id="txt_vent_apellido_pat_cliente_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_apellido_pat_bot_publ"></div></td>
+            <td><strong>CARGO:</strong></td>
+            <td><input name="txt_vent_cargo_cliente_bot_publ" id="txt_vent_cargo_cliente_bot_publ" type="text" class="txt_campo"/></td>
+          </tr>
+          <tr>
+            <td><strong>APELLIDO MATERNO:</strong></td>
+            <td><input name="txt_vent_apellido_mat_cliente_bot_publ" id="txt_vent_apellido_mat_cliente_bot_publ" type="text" class="txt_campo"/></td>
+            <td><strong>DEPARTAMENTO:</strong></td>
+            <td><input name="txt_vent_departamento_cliente_bot_publ" id="txt_vent_departamento_cliente_bot_publ" type="text" class="txt_campo"/></td>
+          </tr>
+          <tr>
+            <td><strong>FECHA NACIMIENTO:</strong></td>
+            <td><input name="txt_vent_cliente_fecha_nac_bot_publ" id="txt_vent_cliente_fecha_nac_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_cliente_fecha_nac_bot_publ"></div></td>            
+            <td><strong>TELEFONO:</strong></td>
+            <td><input name="txt_vent_telefono_cliente_bot_publ" id="txt_vent_telefono_cliente_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_telefono_cliente_bot_publ"></div></td>
+          </tr>
+          <tr>
+            <td><strong>CORREO:</strong></td>
+            <td><input name="txt_vent_cliente_correo_bot_publ" id="txt_vent_cliente_correo_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_cliente_correo_bot_publ"></div></td>
+            <td><strong>NIT:</strong></td>
+            <td><input name="txt_vent_nit_cliente_bot_publ" id="txt_vent_nit_cliente_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_nit_cliente_bot_publ"></div></td>
+          </tr>
+          <tr>
+            <td><strong>CELULAR:</strong></td>
+            <td><input name="txt_vent_celular_cliente_bot_publ" id="txt_vent_celular_cliente_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_celular_cliente_bot_publ"></div></td>            
+            <td><strong>RAZON SOCIAL:</strong></td>
+            <td><input name="txt_vent_razon_social_cliente_bot_publ" type="text" id="txt_vent_razon_social_cliente_bot_publ" class="txt_campo"/><div id="div_error_vent_error_razon_social_cliente_bot_publ"></div></td>
+          </tr>
+          <tr>
+            <td><strong>DIRECCION:</strong></td>
+            <td><textarea name="txt_area_vent_dirrecion_cliente_bot_publ" id="txt_area_vent_dirrecion_cliente_bot_publ"></textarea></td>
+            <td><strong>NUMERO INTERNO:</strong></td>
+            <td><input name="txt_vent_numero_interno_bot_publ" id="txt_vent_numero_interno_bot_publ" type="text" class="txt_campo"/><div id="div_error_vent_error_numero_interno_bot_publ"></td>
+          </tr>
+          <tr>
+            <td><strong>PERSONA CONTACTAR:</strong></td>
+            <td><input name="txt_vent_cliente_persona_contacto_bot_publ" type="text" id="txt_vent_cliente_persona_contacto_bot_publ" class="txt_campo"/><div id="div_error_vent_error_persona_contacto_bot_publ"></div></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <br>
+        <center><input type="submit" value="Registrar Nuevo cliente" id="bt_submit_vent_nuevo_cliente" class="btn_form"> <input type="button" value="Cancelar" class="btn_form" onclick="new Cliente().closeDialogoNuevoClienteBotPubl();"></center>
+	</form>
+</div>

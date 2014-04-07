@@ -3,7 +3,7 @@ var urlProveedor = 'api/listaProveedores';
 var urlProducto = 'api/listaProductosIngreso';
 var urlCalculoTotales = 'api/calculoTotalesFinales';
 var urlRegistroProveedor = 'api/registrarProveedores';
-var urlRegistrarCabecera = 'api/registrarCabeceraIngreso';
+var urlRegistrarCabeceraIngreso = 'api/registrarCabeceraIngreso';
 var  urlFechaProceso = 'api/fechaProcesoSistema';
 
 $(document).on("ready", function() {
@@ -192,15 +192,17 @@ function procesarFormularioProveedor(){
 /** este es el metodo que guarda la cabecera de los items **/
 function guardaCabeceraItemsIngreso(){
     $('#btn-imprimir-ingreso').on('click', function(){
+       // alert('llegan');
         var fecha =$('#fecha-ingreso').val();
         var proveedor =$('#nombre-ingreso').val();
         var nit =$('#NIT-ingreso').val();
         var idproveedor =$('#id-proveedor-ingreso').val();
         var idCabecera =$('#id-cabecera-ingreso').val();
         var total = $('#total-ingreso-final').val();
+
         if(proveedor !== "" && nit !== ""){
             var datos =  {idCabecera:idCabecera, idproveedor:idproveedor, fecha:fecha, nit:nit, nombre:proveedor, total:total};
-            var out = ajaxCall(urlRegistrarCabecera, 'POST', datos);
+            var out = ajaxCall(urlRegistrarCabeceraIngreso, 'POST', datos);
             out.then(function(json){
                 json = JSON.parse(json);
                 if(json.completo){
@@ -216,9 +218,8 @@ function guardaCabeceraItemsIngreso(){
 /** generar el reporte **/
 function generarReporte(codigo){
     /*** codigo para generar el reporte */
-    $(location).attr('href','app/site/venta_tpl/VentasReporte.php?val='+$('#id-cabecera').val());
-   /* var win = window.open('app/site/venta_tpl/VentasReporte.php?val='+codigo,'_blank');
-    win.focus();*/
+    //console.log(codigo);
+    $(location).attr('href','app/site/ingreso_tpl/IngresoReporte.php?val='+codigo);
 }
 
 

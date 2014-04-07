@@ -210,7 +210,42 @@ class Ingreso{
 */
     }
 
+    /**
+     * grabar cabecera producto
+     * @param $_POST
+     */
+    public function guardarCabeceraIngreso($_POST){
+       // print_r($_POST);
 
+        //require('d:\wamp\www\cc7\lib7\libreriaCC7.php');
+        $utilitarios = new Utilitarios();
+                $valor1['alm_cab_ing_egr_id'] = null;
+                $valor1['alm_cab_ing_egr_correlativo'] =null;
+                $valor1['alm_cab_ing_nro_unico'] = $_POST['idCabecera'];
+                $valor1['alm_cab_codigo_vent_unico'] =null;
+                $valor1['alm_cab_ing_egr_nro_nota'] =null;
+                $valor1['alm_cab_ing_egr_cod'] =null;
+                $valor1['alm_cab_ing_egr_nombre'] =$_POST['nombre'];
+                $valor1['alm_cab_ing_egr_nit'] =$_POST['nit'];
+                $valor1['alm_cab_ing_egr_fecha_ingreso'] =  $utilitarios->cambiaf_a_mysql($_POST['fecha']);;
+                $valor1['alm_cab_ing_egr_origen'] =null;
+                $valor1['alm_cab_ing_egr_destino'] =null;
+                $valor1['alm_cab_ing_egr_motivo'] =null;
+                $valor1['alm_cab_ing_egr_motivo_registro'] =null;
+                $valor1['alm_cab_ing_egr_tipo_ingreso'] =null;
+                $valor1['alm_cab_ing_egr_descripcion'] =null;
+                $valor1['alm_cab_ing_egr_usr_alta'] =$_SESSION['login'];
+
+                $jsonRes = array();
+                if($this->mysql->insert('alm_ing_egr_cab', $valor1)){
+                    $jsonRes['idCabecera'] = $valor1['alm_cab_ing_nro_unico'];
+                    $jsonRes['completo'] = true;
+                }else{
+                    $jsonRes['completo'] = false;
+                }
+                print_r(json_encode($jsonRes));
+
+    }
 
    /**
      * grabar cabecera producto
